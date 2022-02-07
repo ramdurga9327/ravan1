@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4E0F553-29E7-4EBC-1730-C63C89193742" name="SELL">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<generatorID>6EC95BEC-674F-E335-8D4C-945757801D19</generatorID>
+<ownerDesignName>ram1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="seller_ID" id="1D0E5BC0-41A6-DB9A-10B1-A06D2205C0EC">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<generatorID>4AFC8FC5-EED3-DC5A-F8CA-44521BCCA9A1</generatorID>
+<ownerDesignName>ram1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Seller_Information" id="D0D78A2B-871F-3AE7-078E-4ED20C4D1063">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<generatorID>3843E6BB-E659-B7C9-48BA-C75B54BCA7E2</generatorID>
+<ownerDesignName>ram1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Agent_Information" id="BD43673F-C2C9-9031-4E1B-2697877F7D28">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<generatorID>110052E5-DC57-C791-B3F7-EE1F777895E5</generatorID>
+<ownerDesignName>ram1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Selling_Price" id="869981D5-9D16-0C01-3F1E-82430EBE824D">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<generatorID>BA1EA8E0-4F51-D393-33F7-774BA8CD2B21</generatorID>
+<ownerDesignName>ram1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Similar_avg_Market_price" id="E45378CF-3EA0-94D6-E2F3-3A258F1F991F">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<generatorID>6DAAB604-C57F-7AEF-7FB0-EEBB5F5897C1</generatorID>
+<ownerDesignName>ram1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SELL_ID" id="E8F88122-01DD-5ADE-8D66-CD43B5CE507C">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<ownerDesignName>ram1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Agent/Owner_Agent/Owner_ID" id="C35D453D-96BF-9230-099B-A1A82610968A">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<ownerDesignName>ram1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0154A38C-3340-3035-8D64-E129F29B1400" referredColumn="D0B79050-0086-B363-C1B2-FA75581187D3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8EBA1642-F8F9-8048-55F4-CDF888AABD3A" name="SELL_PK">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<ownerDesignName>ram1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="E8F88122-01DD-5ADE-8D66-CD43B5CE507C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FD5A363-E263-C785-154C-A793B221CEE9" name="SELL_Agent/Owner_FK">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<generatorID>7EB0D088-EB30-8E75-91DD-3CD82038EBCD</generatorID>
+<ownerDesignName>ram1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C35D453D-96BF-9230-099B-A1A82610968A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

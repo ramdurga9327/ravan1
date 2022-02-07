@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="63132AD1-6E45-C4B1-6154-D9A462B0A942" name="Agent/Owner">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 21:54:53 UTC</createdTime>
+<ownerDesignName>ram1</ownerDesignName>
+<engineerTo>
+<item key="4F1B94D8-1895-601E-AF25-A5E95EC90C50" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Property ID" id="746B27F0-D4E8-C842-C09F-0B7316617195">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 21:55:25 UTC</createdTime>
+<ownerDesignName>ram1</ownerDesignName>
+<engineerTo>
+<item key="4F1B94D8-1895-601E-AF25-A5E95EC90C50" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Conatct Number" id="CF74C55D-4681-66D7-C517-00E209077CCC">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 21:55:25 UTC</createdTime>
+<ownerDesignName>ram1</ownerDesignName>
+<engineerTo>
+<item key="4F1B94D8-1895-601E-AF25-A5E95EC90C50" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Contact/email address" id="B3EEF341-E470-63C6-02E9-5F61D54B3428">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 21:55:26 UTC</createdTime>
+<ownerDesignName>ram1</ownerDesignName>
+<engineerTo>
+<item key="4F1B94D8-1895-601E-AF25-A5E95EC90C50" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

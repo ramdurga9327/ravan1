@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D552A8A2-35B3-9062-9963-B9F7032F6E08" name="Agent/Owner">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<generatorID>63132AD1-6E45-C4B1-6154-D9A462B0A942</generatorID>
+<ownerDesignName>ram1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Property_ID" id="33D4234D-4194-C111-2949-16FBBF8FB594">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<generatorID>746B27F0-D4E8-C842-C09F-0B7316617195</generatorID>
+<ownerDesignName>ram1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Conatct_Number" id="D1832016-10E5-2A5B-D21B-76A982AC89E9">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<generatorID>CF74C55D-4681-66D7-C517-00E209077CCC</generatorID>
+<ownerDesignName>ram1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contact/email_address" id="220B3592-D215-683F-AB72-D2F7EF134A8C">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<generatorID>B3EEF341-E470-63C6-02E9-5F61D54B3428</generatorID>
+<ownerDesignName>ram1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Agent/Owner_ID" id="D0B79050-0086-B363-C1B2-FA75581187D3">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<ownerDesignName>ram1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF612B33-03F3-79C8-5D5E-20C02DC0699C" name="Agent/Owner_PK">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<ownerDesignName>ram1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="D0B79050-0086-B363-C1B2-FA75581187D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

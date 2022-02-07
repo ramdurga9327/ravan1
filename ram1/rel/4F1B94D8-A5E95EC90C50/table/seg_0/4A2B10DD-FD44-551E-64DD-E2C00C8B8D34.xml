@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A2B10DD-FD44-551E-64DD-E2C00C8B8D34" name="Property_Information">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<generatorID>719FDAE6-B968-331D-D524-D60C4233389F</generatorID>
+<ownerDesignName>ram1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Property_ID" id="9E5F549E-5C3A-D6F9-BFCF-D6C6FEE16C5E">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<generatorID>153456D0-0D27-A55F-17EC-F091E51147C7</generatorID>
+<ownerDesignName>ram1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Area" id="7DE0B67F-B499-ADA4-7481-211098E40D84">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<generatorID>1E302DF4-1795-AD23-C874-E15902832D0F</generatorID>
+<ownerDesignName>ram1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Number_of_Bedrooms" id="F1C404D2-0106-70C2-9EDE-8258641B880C">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<generatorID>8F6868D1-20C6-8102-57E2-5D4DE1C4FD9F</generatorID>
+<ownerDesignName>ram1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Number_of_bath" id="25750586-6AEF-B05C-6FF0-F0A03E33DDAB">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<generatorID>8A4267EB-4D57-450F-CB61-302F446F5270</generatorID>
+<ownerDesignName>ram1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kitchen_amenities" id="3751087E-228B-D532-85E4-A4314580F26C">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<generatorID>F4D24D1D-F82D-7BCA-8874-F5CE1160403E</generatorID>
+<ownerDesignName>ram1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="garden_area" id="822B1961-5D8B-C9B0-36B0-9929E2E59AE2">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<generatorID>66F15A28-315C-BDDF-C038-8F5708428BC5</generatorID>
+<ownerDesignName>ram1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Property_Information_ID" id="86740D16-CF2B-A2EF-1DDD-0462855FD250">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<ownerDesignName>ram1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="SELL_SELL_ID" id="54A936F6-9960-7AFA-E148-1DC3D88515DC">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<ownerDesignName>ram1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D256FA1-3D52-0973-0E73-479EF4D6E72E" referredColumn="E8F88122-01DD-5ADE-8D66-CD43B5CE507C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CAFF05EC-E1BF-B6F7-B633-7B13A8D29F84" name="Property_Information_PK">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<ownerDesignName>ram1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="86740D16-CF2B-A2EF-1DDD-0462855FD250"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81601942-CD76-54C0-7CF4-CE11AB029426" name="Property_Information_SELL_FK">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<generatorID>45503E06-FBDC-CDFC-593B-30A95CD8075B</generatorID>
+<ownerDesignName>ram1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54A936F6-9960-7AFA-E148-1DC3D88515DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

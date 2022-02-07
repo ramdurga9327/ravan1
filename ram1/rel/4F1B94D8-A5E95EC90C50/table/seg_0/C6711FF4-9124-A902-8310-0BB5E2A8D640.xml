@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6711FF4-9124-A902-8310-0BB5E2A8D640" name="Relation_5">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<ownerDesignName>ram1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Contact_Information_Contact_Information_ID" id="5D0CB37F-0EE5-2058-785C-A298174BFB62">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<ownerDesignName>ram1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB16E3C9-9214-66BF-8D22-D9153469032B" referredColumn="823FEBA5-2CF2-0C3F-B9A0-00189C801565"/>
+</associations>
+</Column>
+<Column name="Renter/buyer_Renter/buyer_ID" id="AC2CE456-753A-6AB3-5A43-2498CBC240EF">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<ownerDesignName>ram1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2F0D5DF-E12E-CDD4-C1A9-E387B34A3CE0" referredColumn="408D4C28-3455-07DF-F7F6-C06B4A585C88"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B5F4DE1-9CF9-3A0B-A34B-4FEC23B256BF" name="Relation_5_PK">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<ownerDesignName>ram1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D0CB37F-0EE5-2058-785C-A298174BFB62"/>
+<colUsage columnID="AC2CE456-753A-6AB3-5A43-2498CBC240EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C09D6CB5-DC24-3467-12E8-53CFBAFDD81E" name="Relation_5_Contact_Information_FK">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<generatorID>AFDD4525-78AE-17F4-8D70-9E8930D3EAE5</generatorID>
+<ownerDesignName>ram1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D0CB37F-0EE5-2058-785C-A298174BFB62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59A284CE-0A7D-9180-B588-65964EFFB103" name="Relation_5_Renter/buyer_FK">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<generatorID>AFDD4525-78AE-17F4-8D70-9E8930D3EAE5</generatorID>
+<ownerDesignName>ram1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC2CE456-753A-6AB3-5A43-2498CBC240EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

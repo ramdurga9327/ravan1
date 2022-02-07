@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5BA36618-5295-CDE4-3D5F-D315C57F4A05" name="Contact Information">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 21:50:27 UTC</createdTime>
+<ownerDesignName>ram1</ownerDesignName>
+<engineerTo>
+<item key="4F1B94D8-1895-601E-AF25-A5E95EC90C50" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="address" id="30964BA2-98FA-DCCC-8123-53DB334AE0F5">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 21:51:08 UTC</createdTime>
+<ownerDesignName>ram1</ownerDesignName>
+<engineerTo>
+<item key="4F1B94D8-1895-601E-AF25-A5E95EC90C50" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Near by loactions" id="BF79F18A-CBFB-CEAB-6A94-9B601C7E939F">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 21:51:08 UTC</createdTime>
+<ownerDesignName>ram1</ownerDesignName>
+<engineerTo>
+<item key="4F1B94D8-1895-601E-AF25-A5E95EC90C50" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contact Number" id="646EB9A6-BEAE-0494-2EE7-78A670DB04DD">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 21:51:08 UTC</createdTime>
+<ownerDesignName>ram1</ownerDesignName>
+<engineerTo>
+<item key="4F1B94D8-1895-601E-AF25-A5E95EC90C50" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Property ID" id="57685779-5D66-988D-2A59-F1AACF70A5D0">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 21:51:08 UTC</createdTime>
+<ownerDesignName>ram1</ownerDesignName>
+<engineerTo>
+<item key="4F1B94D8-1895-601E-AF25-A5E95EC90C50" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date of Creation" id="872A0A98-9798-0965-2D7F-48D36454A6F0">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 21:51:08 UTC</createdTime>
+<ownerDesignName>ram1</ownerDesignName>
+<engineerTo>
+<item key="4F1B94D8-1895-601E-AF25-A5E95EC90C50" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

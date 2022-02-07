@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0D256FA1-3D52-0973-0E73-479EF4D6E72E" containerWithKeyObject="4A2B10DD-FD44-551E-64DD-E2C00C8B8D34" localFKIndex="81601942-CD76-54C0-7CF4-CE11AB029426" name="Property_Information_SELL_FK">
+<createdBy>REVANTH REDDY</createdBy>
+<createdTime>2021-09-13 22:09:06 UTC</createdTime>
+<generatorID>45503E06-FBDC-CDFC-593B-30A95CD8075B</generatorID>
+<ownerDesignName>ram1</ownerDesignName>
+<referredTableLongName>SELL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C4E0F553-29E7-4EBC-1730-C63C89193742</referredTableID>
+<keyObject>8EBA1642-F8F9-8048-55F4-CDF888AABD3A</keyObject>
+<referredKeyID>8EBA1642-F8F9-8048-55F4-CDF888AABD3A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SELL_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
